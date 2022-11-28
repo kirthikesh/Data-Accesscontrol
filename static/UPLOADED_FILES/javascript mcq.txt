@@ -1,0 +1,350 @@
+JAVASCRIPT MCQ
+
+1.What is JavaScript?
+a) JavaScript is a scripting language used to make the website interactive
+b) JavaScript is an assembly language used to make the website interactive
+c) JavaScript is a compiled language used to make the website interactive
+d) None of the mentioned
+
+2.What will be the output of the following JavaScript code?
+
+<p id="demo"></p>
+<script>
+var js = 10;
+js *= 5;
+document.getElementById("demo").innerHTML = js;
+</script>
+
+a) 10
+b) 50
+c) 5
+d) Error
+
+3. Arrays in JavaScript are defined by which of the following statements?
+a) It is an ordered list of values
+b) It is an ordered list of objects
+c) It is an ordered list of string
+d) It is an ordered list of functions
+
+4.What will be the output of the following JavaScript code snippet?
+
+// JavaScript Equalto Operators
+function equalto()
+{
+    int num=10;
+    if(num===”10”)
+        return true;
+    else
+        return false;
+}
+a) compilation error
+b) false
+c) true
+d) runtime error
+
+5.The behaviour of the instances present of a class inside a method is defined by __________
+a) Method
+b) Classes
+c) Interfaces
+d) Classes and Interfaces
+
+6.What will be the output of the following JavaScript code?
+
+function person()
+{  
+        this.name = 'rahul';  
+}  
+function obj() 
+{  
+       obj.call(this)  
+}  
+obj.prototype = Object.create(person.prototype);  
+const app = new obj();  
+console.log(app.name);
+a) undefined
+b) runtime error
+c) compilation error
+d) rahul
+
+7. What will be the output of the following JavaScript code?
+const obj1 = {  
+ Property1: 2  
+};  
+Object.seal(object1);    
+obj1.property1 =4;  
+console.log(obj1.property1);  
+delete obj1.property1;
+a) 2
+b) 4
+c) Error
+d) Undefined
+
+8.What will be the output of the following JavaScript code snippet?
+
+int a=1;
+if(a!=null) // JavaScript not equal to Operators
+    return 1;
+else
+    return 0;
+a) 0
+b) 1
+c) compiler error
+d) runtime error
+
+9.Why JavaScript Engine is needed?
+a) Both Compiling & Interpreting the JavaScript
+b) Parsing the javascript
+c) Interpreting the JavaScript
+d) Compiling the JavaScript
+
+10.What will be the function of the following JavaScript program?
+
+var scope = "js scope";
+function checkscope() 
+{
+    var scope = "javascript scope"; 
+    function f() 
+    { 
+         return scope; 
+    }
+    return f;
+}
+a) Returns the value in scope
+b) Returns value null
+c) Shows an error message
+d) Returns exception
+
+11.Why event handlers is needed in JS?
+a) Allows JavaScript code to alter the behaviour of windows
+b) Adds innerHTML page to the code
+c) Change the server location
+d) Performs handling of exceptions and occurrences
+
+12. Which of the following is not a framework?
+a) JavaScript .NET
+b) JavaScript
+c) Cocoa JS
+d) jQuery
+
+13.The keyword or the property that you use to refer to an object through which they were invoked is _________
+a) from
+b) to
+c) this
+d) object
+
+14.Function is Used To Parse a String To Int____________
+a)Integer.Parse
+b)Int.Parse
+c)Parse.Int
+d)None
+
+15.The Tag is used To Give Heading To The Table.
+a)Head
+b)Td
+c)Th
+d)Caption
+
+16.Inside which HTML element do we put the JavaScript?
+a)Js
+b)JavaScript
+c)Script
+d)Scripting
+
+17.Which type of JavaScript language is ___
+a)Object-Oriented
+b)Object-Based
+c)Assembly-language
+d)High-level
+
+18.Which of the following is the correct output for the following JavaScript code:
+
+varx=5,y=1  
+var obj ={ x:10}  
+with(obj)  
+{  
+      alert(y)  
+}  
+
+a)1
+b)Error
+c)10
+d)5
+
+19.Which one of the following also known as Conditional Expression:
+a)Alternative to if-else
+b)Switch statement
+c)If-then-else statement
+d)immediate if
+
+20.) In JavaScript, what is a block of statement?
+a)Conditional block
+b)block that combines a number of statements into a single compound statement
+c)both conditional block and a single statement
+d)block that contains a single statement
+
+21.Which of the following is the correct output for the following JavaScript code:
+Int x=8;  
+if(x>9)  
+{  
+document.write(9);  
+}  
+else  
+{  
+document.write(x);  
+}  
+
+a)9
+b)0
+c)8
+d)Undefined
+
+22. Which of the following is the correct output for the following JavaScript code:
+var grade='C';  
+var result;  
+switch(grade)  
+{  
+case'A':  
+{  
+        result+="10";  
+break;  
+}  
+case'B':  
+{  
+        result+=" 9";  
+break;  
+}  
+case'C':  
+{  
+        result+=" 8";  
+break;  
+}  
+default:  
+    result+=" 0";  
+}  
+document.write(result);  
+a)10
+b)9
+c)0
+d)8
+
+23.Which of the following is the correct output for the following JavaScript code:
+var grade='D';  
+var result;  
+switch(grade)  
+{  
+case'A':  
+        result+="10";  
+case'B':  
+        result+=" 9";  
+case'C':  
+        result+=" 8";  
+case 'D'  
+result+=" 6";  
+default:  
+        result+=" 0";  
+}  
+document.write(result);  
+a)10
+b)33
+c)6
+d)0
+
+24. Which of the following is the correct output for the following JavaScript code:
+var grade='Z';  
+var result;  
+switch(grade)  
+{  
+case'A':  
+        result+="10";  
+case'B':  
+        result+=" 9";  
+case'C':  
+        result+=" 8";  
+default:  
+        result+=" 0";  
+}  
+document.write(result);  
+a)10
+b)17
+c)18
+d)0
+
+25. Which of the following is the correct output for the following JavaScript code:
+var x=3;  
+var y=2;  
+var z=0;  
+If(x==y)  
+document.write(x);  
+elseif(x==y)  
+document.write(x);  
+else  
+document.write(z);  
+a)3
+b)0
+c)Error
+d)2
+
+26.In the JavaScript, which one of the following is not considered as an error:
+a)Syntax error
+b)Missing of semicolons
+c)Division by zero
+d)Missing of Bracket
+
+27.Find out the correct output of the following given piece of code from the given options:
+
+functionfun()  
+{  
+int y=10;  
+char z=10;  
+if(y.tostring()===z)  
+returntrue;  
+else  
+returnfalse;  
+}  
+a)logical error
+b)false
+c)runtime error
+d)true
+
+28.Which one of the following is used for the calling a function or a method in the JavaScript:
+a)Property Access Expression
+b)Functional expression
+c)Invocation expression
+d)Primary expression
+
+29.Which one of the following is correct output for the following given JavaScript code:
+
+var  obj=  
+{  
+    length:20,  
+    height:35,  
+}  
+if('breadth' in obj === false)   
+{  
+    obj.breadth = 12;  
+}  
+console.log(obj.breadth);  
+a)Error
+b)Undefined
+c)12
+d)20
+
+30.The execution of a function stops when the program control encounters the _________ statement in the body of the function.
+a)return statement
+b)continue statement
+c)break statement
+d)goto statement
+
+31. Which one of the following options is the correct output for the given code of JavaScript?
+
+functionfun()  
+{  
+var a=1;  
+var b=2;  
+return a*b;  
+}  
+document.write(fun());  
+a)2
+b)3
+c)0
+d)Error
