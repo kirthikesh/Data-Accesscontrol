@@ -1,0 +1,7 @@
+flask
+pypyodbc
+pyodbc
+Jinja2
+importlib-metadata
+wheel
+zipp
